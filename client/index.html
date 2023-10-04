@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.io con NodeJS</title>
+    <!--cargamos el JS de socket.io--><!--en src cargamos la libreria socket.io y el fichero socket.io.js-->
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <!--y cargamos el script donde trabajaremos nosotros, creamos el main.js a la misma altura que el html-->
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>Mi primer Chat con Socket.io</h1>
+
+    <!--creamos un div para mostrar los mensajes con su ID único-->
+    <div id="messages"></div>
+    <!--incorporamos el input para el Nick de nuestros usuarios y el texto del mensaje en un textarea dentro de un formulario-->
+    <form onsubmit="return addMessage(this);">
+        <input type="text" id="nick" placeholder="Name"/>
+        <textarea id="text" placeholder="Escriba el mensaje..."></textarea>
+        <input type="submit" value="Enviar"/>
+    </form>
+</body>
+</html>
