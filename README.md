@@ -11,4 +11,6 @@
 -   npm install: instalará las dependecias necesarias.
 -   npm run dev: levantará el proyecto en la red virtual.
 -   Ahora abrimos el navegador y en la URL escribimos: 192.168.1.44:6677
--   Una vez echo los pasos anteriores puede abrir la App desde cualquier dispositivo conectado a la red sulla (wifi), pruebe desde el movil y el PC al mismo tiempo.
+-   Una vez hecho los pasos anteriores puede abrir la App desde cualquier dispositivo conectado a la red sulla (wifi), pruebe desde el movil y el PC al mismo tiempo.
+
+    Sam Machado - Junior Developer Full Stark JS.
